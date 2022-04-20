@@ -175,3 +175,8 @@ int fastaq::getSeqenceCount()
 {
     return sequencies.size();
 }
+
+vector<string> fastaq::getQualities()
+{
+    return qualities;
+}

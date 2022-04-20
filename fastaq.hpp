@@ -21,6 +21,7 @@ class fastaq {
         void printBaseCount();
         string getSequenceNo(int no);
         int getSeqenceCount();
+        vector<string> getQualities();
     private:
         vector<string> sequencies;
         vector<string> qualities;
